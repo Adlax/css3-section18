@@ -15,21 +15,26 @@ nav#menu ul li {
 }
 /* SOUS MENUS  */
 #menu ul ul {
-    left: 0px;
-    /* bottom: 0px; */
     display: none;
 }
 #menu ul ul li {
     left: 0px;
     width: 200px;
 }
-#menu ul li:hover ul {
+#menu ul li:hover > ul {
     left: 0px;
     top: 90px;
-    /* ou bien : */
-    /* bottom: -270px; */
     display: block;
 }
+/* SOUS SOUS MENU  */
+#menu ul ul ul {
+    display: none;
+}
+#menu ul ul li:hover > ul {
+    display: block;
+    left: 240px;
+    top: 0px;
+} 
 /* RESPONSIVNESS */
 @media screen and (max-width: 700px) {
     nav#menu > ul {
