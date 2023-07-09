@@ -26,6 +26,10 @@ nav#menu ul li {
     top: 90px;
     display: block;
 }
+/* BURGER ICON TUNING */
+#menu > ul > li:first-child {
+    display: none;
+}
 /* SOUS SOUS MENU  */
 #menu ul ul ul {
     display: none;
@@ -47,5 +51,22 @@ nav#menu ul li {
     }
     #menu > ul > li:last-child {
         border: none;
+    }
+    #menu ul li:hover ul {
+        display: none;
+    }
+    .drop-down::after {
+        content: "";
+    }
+    #menu > ul > li {
+        display: none;
+    }
+    #menu > ul > li:first-child {
+        display: block;
+    }
+}
+@media screen and (max-width: 1250px) {
+    #menu ul li:nth-child(3) ul ul {
+        left: -240px;
     }
 }
