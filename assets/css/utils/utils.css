@@ -47,6 +47,12 @@ body {
 .aic, .flex-center-v {
     align-items: center;
 }
+.wrap {
+    flex-wrap: wrap;
+}
+.nowrap {
+    flex-wrap: nowrap;
+}
 /* POSITION */
 .relative {
     position: relative;
