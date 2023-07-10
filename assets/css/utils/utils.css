@@ -38,6 +38,9 @@ body {
 .gap-25 {
     gap: 25px;
 }
+.gap-30 {
+    gap: 30px;
+}
 .jcc, .flex-center-h {
     justify-content: center;
 }
